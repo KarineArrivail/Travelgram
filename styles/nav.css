@@ -13,7 +13,7 @@ nav ul {
   list-style: none;
   display: flex;
   padding-block: 8px;
-  gap: 25px;
+  gap: 24px;
 }
 
 nav ul li:last-child img {
