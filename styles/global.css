@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box; /* define o tamanho e o mantém fixo */
 }
 
 /* seletor universal, + forte e especifico */
@@ -30,14 +30,20 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: inherit; /* imita a cor do pai */
 
 }
 
   a:hover {
     color:var(--brand-color);
-    text-decoration: underline;
+    text-decoration: underline;  /* sublinhado */
   }
 
+  /* uma caixa que agrups e organiza os outros elementos */
+  .container {
+    padding-inline: 32px; /* espaço dentro de um elemento, á esquerda e a direita */
+    max-width: 1280px;
+    margin-inline: auto; /* espaço fora de um elemento á esquerda a direita */
+  }
 
 
