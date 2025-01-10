@@ -28,8 +28,16 @@ body {
   background-color:170% var(--background-color);
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
 
+}
 
+  a:hover {
+    color:var(--brand-color);
+    text-decoration: underline;
+  }
 
 
 
