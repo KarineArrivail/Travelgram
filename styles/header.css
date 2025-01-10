@@ -19,7 +19,7 @@ header .container {
 
 #profile > div {
   max-width: 385px;
-}
+  }
 
 
 
@@ -30,6 +30,14 @@ header .container {
 
 
 }
+
+#profile img {
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 
 #profile p {
   font: var(--text-md);
